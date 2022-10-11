@@ -1,0 +1,62 @@
+@font-face {
+    font-family: feather;
+    src: url(feather.ttf);
+}
+@font-face {
+    font-family: sura;
+    src: url(Sura-Regular.ttf);
+}   
+#gauche{
+    background-color: #284b63;
+    flex-direction: column;
+    display: flex;
+    flex: 0.25;
+    color: white;
+    font-size: 80%;
+    text-align:justify;
+    padding: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: sura;
+}
+#droite{
+    background-color: #d9d9d9;
+    flex-direction: column;
+    display: flex;
+    flex: 0.75;
+
+}
+.photo{
+    filter: grayscale(10);
+    clip-path:ellipse(45% 45% at 50% 50%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 6em;
+    justify-content: center;
+}
+#adresse{
+    text-align: center;
+}
+#nom{
+    background-color: #3c6e71;
+    text-align: center;
+    font-size: 30px;
+
+}
+.telephone{
+    font-size: 30px;
+}
+.bi-at{
+    font-size: 30px; 
+}
+.bi-house-door{
+    font-size: 30px;
+    float: left;
+    line-height: 25px;
+    margin-right: 5px;
+}
